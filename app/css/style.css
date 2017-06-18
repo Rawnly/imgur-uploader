@@ -44,8 +44,18 @@ main {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 6em;
 	color: #1bb76e;
+	flex-direction: column;
+	text-align: center;
+}
+
+.descr {
+	font-size: .7em
+}
+
+.big {
+	font-size: 3.5em;
+	height: 100%;
 }
 
 .drop-zone:hover,
