@@ -1,0 +1,15 @@
+{
+  "name": "imgur-push",
+  "version": "1.0.0",
+  "description": "Imgur quick push",
+  "main": "app.js",
+  "author": "Federico Vitale",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  },
+  "dependencies": {
+    "electron-main-notification": "^1.0.1",
+    "got": "^7.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+html *, body * {
+	box-sizing: border-box !important;
+}
+
+html, body {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	background: #141518;
+}
+
+.handle {
+	padding: 20px;
+	display: table;
+	width: 100vw;
+	-webkit-app-region: drag;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 100vw;
+	height: 100vh;
+
+	overflow: hidden;
+}
+
+.drop-zone {
+	border-radius: 5px;
+	border: 4px dashed #1bb76e;
+	position: relative;
+	padding: 35px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	transition: opacity .25s;
+	width: 75vw;
+	height: 75vh;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 6em;
+	color: #1bb76e;
+}
+
+.drop-zone:hover,
+.drop-zone.drop {
+	opacity: .5;
+}
+
+/*.drop-zone::before {
+	content: 'DROP';
+	color: #555;
+	font-size: 2em;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}*/
